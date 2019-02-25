@@ -1,0 +1,95 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:200,200i,400,400i,600,600i|Open+Sans+Condensed:300,700|Open+Sans:300,400');
+
+body{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+a{
+    font-family: 'Open Sans', Arial, sans-serif;
+    color:inherit;
+    text-decoration:none;
+    font-weight:300;
+}
+a:hover{
+    color:#0f7786;
+}
+
+h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight:600;
+    font-size:300%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    padding: 10px;
+}
+
+input[type=radio]
+{
+  /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    padding: 10px;
+}
+
+.cust_inst{font-size:90%; font-weight: 300; color: #888888;font-family: 'Open Sans', Arial, sans-serif;}
+/* This is the instruction style */
+
+.int_inst{font-size:90%; font-weight: 300; color: #0f7786;font-family: 'Open Sans', Arial, sans-serif;}
+/* This is a second instruction style I made for instructions to interviewers */
+
+input[type=submit] {
+    padding: 12px 24px; 
+    background: #0f7786; /* Button color */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size:140%; /* Button text size, I'd suggest larger than the rest of the body */
+    border: 0;
+    color:#fff; /* Button text color */
+    outline:none;
+    cursor:pointer;
+    border-radius: 24px; /* Rounding corners of buttons */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#b_back{background: #DCDCDC; /* Button color */}
+
+/* These define the question text, I've set this at normal weight (thickness) */
+.question_1, .question_2, .question_3, .question_4, .question_5, .question_6, .question_7, .question_8, .question_9, .question_10, .question_11, .question_12, .question_13, .question_14, .question_15, .question_16, .question_17, .question_18, .question_19, .question_20
+{font-weight:400;font-family: 'Fira Sans Condensed', Helvetica, Arial, sans-serif;}
+
+
+/* These define the options in the question, I've set this at light weight (thickness), it will emphasise the question over the options */
+.codelabel_1, .codelabel_2, .codelabel_3, .codelabel_4, .codelabel_5, .codelabel_6, .codelabel_7, .codelabel_8, .codelabel_9, .codelabel_10, .codelabel_11, .codelabel_12, .codelabel_13, .codelabel_14, .codelabel_15, .codelabel_16, .codelabel_17, .codelabel_18, .codelabel_19, .codelabel_20
+{font-weight:300;font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
+
+/* These define the grid options */
+.gridlabel_1, .gridlabel_2, .gridlabel_3, .gridlabel_4, .gridlabel_5, .gridlabel_6, .gridlabel_7, .gridlabel_8, .gridlabel_9, .gridlabel_10, .gridlabel_11, .gridlabel_12, .gridlabel_13, .gridlabel_14, .gridlabel_15, .gridlabel_16, .gridlabel_17, .gridlabel_18, .gridlabel_19, .gridlabel_20
+{font-weight:300;font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
+
+/* These define the text in open ended boxes */
+.data_1, .data_2, .data_3, .data_4, .data_5, .data_6, .data_7, .data_8, .data_9, .data_10, .data_11, .data_12, .data_13, .data_14, .data_15, .data_16, .data_17, .data_18, .data_19, .data_20
+{font-weight:300;font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
+
+/* These define the text in foot notes to questions, I've started using the footnote box on rating questions so I can put the 
+polar option under the check boxes and a reminder of the neutral value set this at light weight (thickness) */
+.footnote_1_1, .footnote_1_2, .footnote_1_3, .footnote_1_4, .footnote_1_5, .footnote_1_6, .footnote_1_7, .footnote_1_8, .footnote_1_9, .footnote_1_10, .footnote_1_11, .footnote_1_12, .footnote_1_13, .footnote_1_14, .footnote_1_15, .footnote_1_16, .footnote_1_17, .footnote_1_18, .footnote_1_19, .footnote_1_20
+{font-weight:300;font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
+
+/* This puts a bit of space between the buttons and the progress bar */
+.tools_1{margin-top:15px;}
+</style>
